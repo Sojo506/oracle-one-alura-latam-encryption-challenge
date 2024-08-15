@@ -63,6 +63,7 @@ The following colors are used in this project:
   --gray-400: #495057;
   --gray-500: #343A40;
 }
+```
 
 ## Installation 💻
 
