@@ -32,6 +32,7 @@ Este proyecto es una aplicación web simple que permite encriptar y desencriptar
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## Instalación 💻
 
