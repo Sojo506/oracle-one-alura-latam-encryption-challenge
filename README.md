@@ -40,6 +40,7 @@ This project is a simple web application that allows you to encrypt and decrypt 
 
 The following colors are used in this project:
 
+```css
 :root {
   /* dark blue */
   --dark-blue-100: #609ED4;
