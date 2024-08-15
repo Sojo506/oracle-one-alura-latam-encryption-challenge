@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryptor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/Logo.png" alt="logo" class="header__logo" id="logo" />
+    </header>
+
+    <main class="main">
+      <input
+        type="text"
+        placeholder="Ingrese el texto aquí"
+        class="main__input"
+        id="input-text"
+      />
+
+      <div class="main__warning">
+        <img
+          src="assets/bi_exclamation-circle-fill.png"
+          alt="exclamation icon"
+          class="main__warning-icon"
+        />
+        <p class="main__warning-text">Solo letras minúsculas y sin acentos</p>
+
+        <div class="main__buttons">
+          <button class="main__button" id="encrypt-button">Encriptar</button>
+          <button class="main__button" id="decrypt-button">Desencriptar</button>
+        </div>
+      </div>
+
+      <aside class="aside">
+        <img
+          src="assets/Muñeco.png"
+          alt="joven con lupa viendo un diamante"
+          class="aside__image"
+        />
+
+        <div class="aside__message">
+          <h3 class="aside__message-title">Ningún mensaje fue encontrado</h3>
+          <p class="aside__message-text">
+            Ingrese el texto que desees encriptar o desencriptar.
+          </p>
+        </div>
+
+        <button class="aside__button" id="copy-button">Copiar</button>
+      </aside>
+    </main>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
