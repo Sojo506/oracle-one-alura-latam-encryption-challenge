@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* dark blue */
+  --dark-blue-100: #609ED4;
+  --dark-blue-200: #356EA9;
+  --dark-blue-300: #0A3871;
+  --dark-blue-400: #072B61;
+  --dark-blue-500: #052051;
+
+  /* light blue */
+  --light-blue-100: #F3F5FC;
+  --light-blue-200: #EFF1FA;
+  --light-blue-300: #E9ECF8;
+  --light-blue-400: #AAB2D5;
+  --light-blue-500: #757FB2;
+
+  /* gray */
+  --gray-100: #CED4DA;
+  --gray-200: #ADB5BD;
+  --gray-300: #868E96;
+  --gray-400: #495057;
+  --gray-500: #343A40;
+}
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* general */
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-blue-100);
+  color: #333;
+  padding: 40px;
+}
+
+/* Header */
+.header {}
+
+.header__logo {}
+
+/* Main */
+.main {}
+
+.main__input {}
+
+.main__warning {}
+
+.main__warning-icon {}
+
+.main__warning-text {}
+
+.main__buttons {}
+
+.main__button {}
+
+.main__button:hover {}
+
+/* Aside */
+.aside {}
+
+.aside__image {}
+
+.aside__message {}
+
+.aside__message-title {}
+
+.aside__message-text {}
+
+.aside__button {}
+
+.aside__button:hover {}
