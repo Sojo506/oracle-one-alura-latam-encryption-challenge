@@ -17,8 +17,10 @@ This project is a simple web application that allows you to encrypt and decrypt 
 
 ## Project Structure 📁
 
+- `assets`: Folder that contains the images of the page.
 - `index.html`: Main HTML file that defines the structure of the page.
 - `styles.css`: CSS file for the styles of the page.
+- `scripts.js`: JavaScript file for the functionality of the page.
 
 ## Usage 🚀
 
@@ -33,6 +35,35 @@ This project is a simple web application that allows you to encrypt and decrypt 
 - HTML5
 - CSS3
 - JavaScript
+
+## Color Palette 🎨
+
+The following colors are used in this project:
+
+```css
+:root {
+  /* dark blue */
+  --dark-blue-100: #609ED4;
+  --dark-blue-200: #356EA9;
+  --dark-blue-300: #0A3871;
+  --dark-blue-400: #072B61;
+  --dark-blue-500: #052051;
+
+  /* light blue */
+  --light-blue-100: #F3F5FC;
+  --light-blue-200: #EFF1FA;
+  --light-blue-300: #E9ECF8;
+  --light-blue-400: #AAB2D5;
+  --light-blue-500: #757FB2;
+
+  /* gray */
+  --gray-100: #CED4DA;
+  --gray-200: #ADB5BD;
+  --gray-300: #868E96;
+  --gray-400: #495057;
+  --gray-500: #343A40;
+}
+```
 
 ## Installation 💻
 
