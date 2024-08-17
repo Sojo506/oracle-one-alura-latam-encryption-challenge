@@ -7,31 +7,39 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="assets/Logo.png" alt="logo" class="header__logo" id="logo" />
-    </header>
+    <div class="container">
+      <header class="header">
+        <img src="assets/Logo.png" alt="logo" class="header__logo" id="logo" />
+      </header>
 
-    <main class="main">
-      <input
-        type="text"
-        placeholder="Ingrese el texto aquí"
-        class="main__input"
-        id="input-text"
-      />
+      <main class="main">
+        <textarea
+          class="main__input"
+          id="input-text"
+          placeholder="Ingrese el texto aquí"
+          maxlength="143"
+        ></textarea>
 
-      <div class="main__warning">
-        <img
-          src="assets/bi_exclamation-circle-fill.png"
-          alt="exclamation icon"
-          class="main__warning-icon"
-        />
-        <p class="main__warning-text">Solo letras minúsculas y sin acentos</p>
+        <div class="main__content">
+          <div class="main__text">
+            <img
+              src="assets/bi_exclamation-circle-fill.png"
+              alt="exclamation icon"
+              class=""
+            />
 
-        <div class="main__buttons">
-          <button class="main__button" id="encrypt-button">Encriptar</button>
-          <button class="main__button" id="decrypt-button">Desencriptar</button>
+            <p class="">Solo letras minúsculas y sin acentos</p>
+          </div>
+
+          <div class="main__buttons">
+            <button class="main__button" id="encrypt-button">Encriptar</button>
+
+            <button class="main__button" id="decrypt-button">
+              Desencriptar
+            </button>
+          </div>
         </div>
-      </div>
+      </main>
 
       <aside class="aside">
         <img
@@ -41,15 +49,13 @@
         />
 
         <div class="aside__message">
-          <h3 class="aside__message-title">Ningún mensaje fue encontrado</h3>
-          <p class="aside__message-text">
-            Ingrese el texto que desees encriptar o desencriptar.
-          </p>
+          <h3 class="">Ningún mensaje fue encontrado</h3>
+          <p class="">Ingrese el texto que desees encriptar o desencriptar.</p>
         </div>
 
-        <button class="aside__button" id="copy-button">Copiar</button>
+        <button class="aside__message-copy-button hide" id="copy-button">Copiar</button>
       </aside>
-    </main>
+    </div>
 
     <footer class="footer">
       <p class="footer__text">&copy; 2024 Fabián Sojo. All rights reserved.</p>
