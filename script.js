@@ -32,6 +32,8 @@ function updateAsideText(text, isValid) {
   } else {
     alert('Solo letras minúsculas y sin acentos');
     asideText.textContent = '';
+    inputText.value = '';
+    asideContent.classList.remove('hide');
     copyBtn.classList.add('hide');
   }
 }
