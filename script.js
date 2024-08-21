@@ -28,9 +28,10 @@ function updateAsideText(text, isValid) {
           console.error('Error copying text: ', err);
         });
       selectText(asideText);
+      sweetAlert('Texto copiado al portapapeles', 'success', 'Genial!');
     });
   } else {
-    alert('Solo letras minúsculas y sin acentos');
+    sweetAlert('Solo letras minúsculas y sin acentos', 'error', '');
     asideText.textContent = '';
     inputText.value = '';
     asideContent.classList.remove('hide');
@@ -69,6 +70,14 @@ inputText.addEventListener('input', () => {
     copyBtn.classList.add('hide');
   }
 });
+
+function sweetAlert(warningMessage, icon = 'error', title = 'Oops...') {
+  Swal.fire({
+    icon: icon,
+    title: title,
+    text: `${warningMessage}`,
+  });
+}
 
 function encryptText(value) {
   return value
